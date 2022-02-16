@@ -1,0 +1,128 @@
+/* 1. Overview Обзор ключевых метрик
+
+Total sale */
+select 
+ round (sum (sales),0) as total_sales
+from
+ orders
+ 
+ -- Total profit
+select
+  round (sum (profit),0) as total_profit
+from
+  orders
+  
+-- Profit ratio 
+select
+  round ((profit/sales)*100) as profit_ratio
+from
+  orders
+  
+-- Profit per Order
+select
+ extract (year from order_date) as year,
+ order_id,
+ round (sum (Profit),0) as profit_per_order
+from 
+ orders
+group by
+ year,
+ order_id
+order by 
+ year
+ 
+-- Sales per Costomer
+select 
+ extract (year from order_date) as year,
+ customer_name,
+ round (sum (sales),0) as sum_of_sales
+from
+ orders
+group by
+ year,
+ customer_name
+order by 
+ customer_name
+
+-- Avg. Discount
+ select 
+ extract (month from order_date) as month,
+ extract (year from order_date) as year,
+ round (avg (discount),2) as avg_discount
+ from
+ orders
+ group by
+ month,
+ year
+
+ -- Monthly Sales by Segment 
+ select
+ extract (month from order_date) as month,
+ segment,
+ round (sum (sales),0) as sum_of_month
+ from
+ orders 
+ group by
+ month,
+ segment
+ order by 
+ month
+ 
+ -- Monthly Sales by Product
+ select 
+ extract (month from order_date) as month,
+ category,
+ round (sum (sales),0) as sum_of_month
+ from
+ orders
+ group by
+ month,
+ category
+ 
+ 
+ /*2. Product Dashboard
+ 
+ Sales by Product Category over time*/
+ 
+ select 
+ category,
+ round (sum (sales),0) as sum_of_month
+ from
+ orders
+ group by
+ category
+ 
+/* 3. Customer Analysis
+ 
+ Sales and Profit by Customer*/
+ 
+select 
+customer_name,
+round (sum (sales),0) as sum_of_sales,
+round (sum (profit),0) as sum_of_profit
+from
+orders 
+group by
+customer_name
+order by 
+sum_of_profit
+
+-- Customer ranking 
+select 
+customer_name,
+round (sum (sales),0) as sum_of_sales,
+round (sum (profit),0) as sum_of_profit,
+dense_rank () over (order by round (sum (profit),2) desc) as customer_ranking
+from 
+orders 
+group by
+customer_name
+
+-- Sales per region
+select 
+region,
+round (sum (sales),0) as sum_of_sales
+from
+orders
+group by
+region
