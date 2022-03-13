@@ -1,6 +1,7 @@
 # Module 1
 ## Архитектура аналитического решения 
 Верхнеуровневая архитектура аналитического решения
+
 ![cheme](https://github.com/Magomedm221/DataLearn/blob/main/DE%20101/module01/%D0%A1%D1%85%D0%B5%D0%BC%D0%B0%20LAMODA.png?raw=true)
 
 ## GitHub
@@ -25,3 +26,5 @@
 - Построить примеры отчетов
 - Использовать Lookup
 - Создать дашборд
+
+![Excel file](https://github.com/Magomedm221/DataLearn/blob/main/DE%20101/module01/Sample%20-%20Superstore%20-%20Dashboard.xlsx)
