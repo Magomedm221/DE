@@ -7,14 +7,14 @@
 - Для управления GitHub использовать коммандную строку
 
 Сам код: 
-`git clone
-git switch -c new_branch
-*редактируем, пишем, созидаем*
-git add .
-git commit -m "краткое описание коммита"
-git checkout main
-git merge new_branch
-git push`
+`- git clone
+- git switch -c new_branch
+- *редактируем, пишем, созидаем*
+- git add .
+- git commit -m "краткое описание коммита"
+- git checkout main
+- git merge new_branch
+- git push`
 
 ## Excel
 Построить сводную таблицу
