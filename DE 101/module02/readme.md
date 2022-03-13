@@ -11,15 +11,15 @@
 # 2.2: Модель данных
 - Conceptual model
 
-![](https://github.com/Magomedm221/DataLearn/blob/main/DE%20101/module02/2_4_sql_Conceptual_model.png)
+![](https://github.com/Magomedm221/DataLearn/blob/main/DE%20101/module02/2_2_sql_Conceptual_model.png)
 
 - Logistic_model
 
-![](https://github.com/Magomedm221/DataLearn/blob/main/DE%20101/module02/2_4_sql_Logical_model.png)
+![](https://github.com/Magomedm221/DataLearn/blob/main/DE%20101/module02/2_2_sql_Logical_model.png)
 
 - Physical model
 
-![](https://github.com/Magomedm221/DataLearn/blob/main/DE%20101/module02/2_4_sql_Physical_model.png)
+![](https://github.com/Magomedm221/DataLearn/blob/main/DE%20101/module02/2_2_sql_Physical_model.png)
 
 # Практика
 - ![DDL - создание таблиц](https://github.com/Magomedm221/DataLearn/blob/main/DE%20101/module02/ddl_final.sql.txt)
@@ -28,6 +28,11 @@
 
 # 2.3: База данных в облаке
 Практика Обновленные модели данных и данные для загрузки в облачную БД Amazon RDS
+- ![DDL](https://github.com/Magomedm221/DataLearn/blob/main/DE%20101/module02/2_3_ddl_final.sql.txt)
+- ![Наполнение таблиц](https://github.com/Magomedm221/DataLearn/blob/main/DE%20101/module02/2_3_insert_final.sql.txt)
+- ![Сырые данные. Таблица orders](https://github.com/Magomedm221/DataLearn/blob/main/DE%20101/module02/2_3_stg.order.sql.txt)
+- ![Сырые данные. Таблица returns](https://github.com/Magomedm221/DataLearn/blob/main/DE%20101/module02/2_3_stg.returns.sql.txt)
+- ![Сырые данные. Таблица people](https://github.com/Magomedm221/DataLearn/blob/main/DE%20101/module02/2_3_stg.people.sql.txt)
 
 # 2.4: Как донести данные до бизнес-пользователя
 Практика. Пример Dashboard на Goole Data Studio (с подключением к AWS RDS)
