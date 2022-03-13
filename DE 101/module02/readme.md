@@ -4,6 +4,9 @@
 - Запросы к БД
 
 # 2.1: Подключение к Базам Данных и SQL
+- ![orders.sql](https://github.com/Magomedm221/DataLearn/blob/main/DE%20101/module02/orders.sql.txt)
+- ![people.sql](https://github.com/Magomedm221/DataLearn/blob/main/DE%20101/module02/people.sql.txt)
+- ![returns.sql](https://github.com/Magomedm221/DataLearn/blob/main/DE%20101/module02/returns.sql.txt)
 
 # 2.2: Модель данных
 - Conceptual model
