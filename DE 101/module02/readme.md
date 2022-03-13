@@ -8,9 +8,15 @@
 # 2.2: Модель данных
 - Conceptual model
 
+![](https://github.com/Magomedm221/DataLearn/blob/main/DE%20101/module02/2_4_sql_Conceptual_model.png)
+
 - Logistic_model
 
+![](https://github.com/Magomedm221/DataLearn/blob/main/DE%20101/module02/2_4_sql_Logical_model.png)
+
 - Physical model
+
+![](https://github.com/Magomedm221/DataLearn/blob/main/DE%20101/module02/2_4_sql_Physical_model.png)
 
 # Практика
 
