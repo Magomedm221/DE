@@ -27,4 +27,5 @@
 - Использовать Lookup
 - Создать дашборд
 
+Ниже будет ссылка на результат:
 ![Excel file](https://github.com/Magomedm221/DataLearn/blob/main/DE%20101/module01/Sample%20-%20Superstore%20-%20Dashboard.xlsx)
